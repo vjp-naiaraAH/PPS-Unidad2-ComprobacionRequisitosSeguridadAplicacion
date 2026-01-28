@@ -38,11 +38,6 @@ En la pestaña **ASVS_Results** se observa:
 Esto es completamente esperable dada la simplicidad extrema de la aplicación.
 
 **Capturas de pantalla:**
-
-
-https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img1.png
-
-
 - Resultados globales y gráfico de telaraña:  
   ![Resultados globales](https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img1.png)
 
