@@ -1,7 +1,6 @@
-# Comprobación de Requisitos de Seguridad - Naiara
+# Comprobación de Requisitos de Seguridad
 
 ## 1. Nivel de seguridad requerido por la aplicación
-
 La aplicación consiste en dos scripts Python sencillos (`lavadero.py` y `main_app.py`) que simulan el funcionamiento de un túnel de lavado de coches mediante una máquina de estados en consola.  
 
 Características clave que determinan el nivel de seguridad ASVS:
@@ -19,7 +18,7 @@ Por todo ello, el nivel de seguridad **más adecuado** según OWASP ASVS es el *
 - **Nivel 2** ya requeriría controles que no aplican aquí (TLS obligatorio, logging de seguridad detallado, protección contra CSRF, gestión segura de secretos, etc.).
 - **Nivel 3** es para aplicaciones críticas con requisitos de alta assurance (HSM, re-autenticación frecuente, auditoría estricta, etc.).
 
-En resumen: **ASVS Nivel 1** es suficiente y realista para esta aplicación educativa sin exposición ni valor real en juego.
+En resumen: **ASVS Nivel 1** es suficiente y realista para esta aplicación sin exposición ni valor real en juego.
 
 ## 2. Hoja de cálculo cumplimentada
 
@@ -41,15 +40,14 @@ Esto es completamente esperable dada la simplicidad extrema de la aplicación.
 **Capturas de pantalla:**
 
 - Resultados globales y gráfico de telaraña:  
-  ![Resultados globales](img/asvs_resultados_globales.png)
+  ![Resultados globales](img1/asvs_resultados_globales.png)
 
 - Sección Input Validation (detalle):  
-  ![Input Validation](img/asvs_input_validation.png)
+  ![Input Validation](img2/asvs_input_validation.png)
 
 - Sección Malicious Code (detalle):  
-  ![Malicious Code](img/asvs_malicious_code.png)
+  ![Malicious Code](img3/asvs_malicious_code.png)
 
-*(Nota: sustituye las rutas por las reales cuando subas las capturas)*
 
 ## 3. Análisis del grado de cobertura
 
@@ -78,18 +76,14 @@ No he ejecutado estas herramientas porque el código es mínimo, usa solo stdlib
 OWASP ASVS me parece un estándar **muy completo y valioso** para proyectos reales, especialmente aplicaciones web empresariales, APIs o sistemas con datos sensibles. Proporciona una lista estructurada, objetiva y actualizada de controles que ayudan a no olvidar aspectos críticos (autenticación, validación, logging, configuración segura, etc.).
 
 **Ventajas**:
-
 - Es independiente de tecnologías → se puede aplicar a Python, Java, .NET, etc.
 - Tiene niveles progresivos (L1 básico, L2 estándar, L3 alto) que permiten adaptarlo al riesgo real.
 - Incluye referencias útiles (CWE, NIST, Proactive Controls) que facilitan el aprendizaje.
 - Sirve tanto para desarrollo (como checklist) como para auditorías/pentesting.
 
 **Dificultades / limitaciones**:
-
 - Para aplicaciones muy simples o educativas como esta (scripts locales sin red ni usuarios), se siente como **overkill** — la mayoría de requisitos no aplican y el porcentaje queda ridículamente bajo.
 - Requiere tiempo y conocimiento para rellenar correctamente la hoja (sobre todo decidir "Not Applicable" vs "Non-valid").
 - Está muy orientado a aplicaciones web → para apps de consola, desktop, IoT o embebidas, hay que interpretar muchos puntos con sentido común.
 
 En definitiva: **excelente herramienta para proyectos serios**, pero en ejercicios académicos pequeños sirve más como ejercicio de reflexión que como verificación real de seguridad. Me ha ayudado a entender mejor qué vulnerabilidades "no existen" en mi app precisamente por su diseño minimalista.
-
-¡Fin del documento!
