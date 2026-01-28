@@ -39,8 +39,12 @@ Esto es completamente esperable dada la simplicidad extrema de la aplicación.
 
 **Capturas de pantalla:**
 
+
+https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img1.png
+
+
 - Resultados globales y gráfico de telaraña:  
-  ![Resultados globales](img1/asvs_resultados_globales.png)
+  ![Resultados globales]([img1/asvs_resultados_globales.png](https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img1.png))
 
 - Sección Input Validation (detalle):  
   ![Input Validation](img2/asvs_input_validation.png)
