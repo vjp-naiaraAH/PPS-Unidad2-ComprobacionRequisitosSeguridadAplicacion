@@ -47,10 +47,10 @@ https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisito
   ![Resultados globales](https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img1.png)
 
 - Sección Input Validation (detalle):  
-  ![Input Validation](img2/asvs_input_validation.png)
+  ![Input Validation](https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img2.png)
 
 - Sección Malicious Code (detalle):  
-  ![Malicious Code](img3/asvs_malicious_code.png)
+  ![Malicious Code](https://raw.githubusercontent.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/refs/heads/main/images/img3.png)
 
 
 ## 3. Análisis del grado de cobertura
