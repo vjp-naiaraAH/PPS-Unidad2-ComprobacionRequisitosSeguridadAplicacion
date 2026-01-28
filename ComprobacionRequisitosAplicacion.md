@@ -24,6 +24,8 @@ En resumen: **ASVS Nivel 1** es suficiente y realista para esta aplicación sin 
 
 He descargado la plantilla OWASP ASVS checklist for audits (versión 4.0.2) y la he renombrado como **ASVS-Checklist-Naiara.xlsx**.
 
+Archivo subido en la tarea: [ASVS-Checklist-Naiara.ods](https://github.com/vjp-naiaraAH/PPS-Unidad2-ComprobacionRequisitosSeguridadAplicacion/raw/main/ASVS-Checklist-Naiara.ods)
+
 He rellenado principalmente las secciones solicitadas en la actividad:
 
 - **Input Validation** (hoja 5): varios requisitos marcados como "Valid" o "Non-valid" con comentarios y referencias al código.
